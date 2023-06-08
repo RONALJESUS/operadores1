@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) // QUE SIGNIFICA ESTA LINEA DE CODIGO
 {
 const float G = 6.673e-8;
 float masa1, masa2, distancia, fuerza;
@@ -12,7 +12,7 @@ cin >> masa2;
 cout<<" Introduzca La Distancia En Centimetros: " << endl;
 cout << "Dato 1: ";
 cin >> distancia;
-if (( masa1 <= 0 ) || ( masa2 <= 0) || ( distancia <= 0 ))
+if (( masa1 <= 0 ) || ( masa2 <= 0) || ( distancia <= 0 )) //  QUE PASA SI MASA1, MASA2, DISTANCIA SON <=1???
 cout << " no solucion " << endl;
 else
 {
